@@ -746,3 +746,7 @@ section,
     border-top:1px solid #9A9A9A!important;
   }
 }
+
+.important-items p:not(.label){
+  color:var(--muted)!important;
+}
