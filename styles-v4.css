@@ -750,3 +750,7 @@ section,
 .important-items p:not(.label){
   color:var(--muted)!important;
 }
+
+.important-title h2{
+  color:var(--muted)!important;
+}
