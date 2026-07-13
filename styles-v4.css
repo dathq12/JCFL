@@ -628,7 +628,7 @@ section::after,
 
 @media(min-width:1181px){
   .hero-title{
-    transform:translate(-110px,-30px)!important;
+    transform:translate(-210px,-5px)!important;
   }
 }
 
@@ -883,7 +883,7 @@ section,
   }
 
   .hero-title {
-    transform: translateY(-20px);
+    transform: translateY(0px);
   }
 
 }
