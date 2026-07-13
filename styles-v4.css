@@ -635,3 +635,75 @@ section::after,
 #courses .course-head .body-copy{
   color:var(--muted)!important;
 }
+
+html,
+body{
+  max-width:100%;
+  overflow-x:hidden;
+}
+
+main,
+.site-top,
+section,
+.section,
+.footer{
+  overflow-x:clip;
+}
+
+.hero-title h1{
+  color:#080808!important;
+}
+
+.hero-title h1 span{
+  color:#FCC0E5!important;
+}
+
+@media(max-width:1180px){
+  .hero-title h1{
+    color:#fff!important;
+    text-shadow:0 2px 18px rgba(8,8,8,.32);
+  }
+
+  .hero-title h1 span{
+    color:#FCC0E5!important;
+    text-shadow:0 2px 18px rgba(8,8,8,.24);
+  }
+}
+
+#courses.course{
+  background:#FCC0E5;
+  color:#080808;
+}
+
+#courses .course-grid{
+  background:#9A9A9A;
+  gap:1px;
+}
+
+#courses .course-card{
+  background:#fff;
+  color:#080808;
+}
+
+#courses .course-card .media-bg{
+  opacity:.28;
+  filter:saturate(.82) contrast(.96);
+}
+
+#courses .course-card::after{
+  background:linear-gradient(180deg,rgba(255,255,255,.72),rgba(255,255,255,.94) 58%,rgba(252,192,229,.82));
+}
+
+#courses .course-code{
+  color:#FCC0E5;
+  text-shadow:0 1px 0 #9A9A9A;
+}
+
+#courses .course-content h3{color:#080808}
+#courses .course-content a{
+  background:rgba(255,255,255,.72);
+  border-color:#9A9A9A!important;
+  color:#727272;
+}
+
+#courses .course-content a span{color:#080808}
