@@ -603,7 +603,7 @@ section::after,
 .hero-layout{position:relative;display:block;min-height:calc(100vh - 109px)}
 .hero-visual{position:absolute;inset:0;border:0;background:#fff}
 .hero-img{
-  background-image:url('assets/banner-premium-key-visual.png');
+  background-image:url('assets/banner-premium-key-visual.jpg');
   background-position:right;
   background-size:cover;
 }
